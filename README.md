@@ -109,47 +109,116 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
 
 ## 📂 Key Datasets
 
-### DocTamper
-- **Annotation:** Pixel-level segmentation  
-- **Paper:** *Towards Robust Tampered Text Detection in Document Image* (CVPR 2023)  
-- **Size:** 120,000 train / 30,000 test + FCD (2k), SCD (18k)  
-- **Domain:** Contracts, invoices, receipts  
-- **Tampering:** Copy-move, splicing, generation  
+## 2017  
 
-### OSTF (Open-set Scene Text Forensics)
-- **Annotation:** Bounding Box  
-- **Paper:** *Revisiting Tampered Scene Text Detection in the Era of Generative AI* (AAAI 2025)  
-- **Size:** ~462–127k samples across SRNet, STEFANN, Mostel, DiffSTE, Anytext, Textdiff, Udifftext, TextOCR, ReCTS, ICDAR datasets  
-- **Domain:** Scene text  
-- **Tampering:** Rendering, conventional CNNs, GAN, diffusion models
+### 🔹 A Dataset for Forgery Detection and Spotting in Document Images  
+- **Annotation**: Character-level bounding boxes + values (XML)  
+- **Paper**: [A Dataset for Forgery Detection and Spotting in Document Images](http://navidomass.univ-lr.fr/ForgeryDataset/)  
+- **Domain**: Payslips  
+- **Size**: 677  
+- **Tampering**: Copy-paste  
 
-### RealDTT
-- **Annotation:** Pixel-level segmentation  
-- **Paper:** *RealDTT: Towards A Comprehensive Real-World Dataset for Tampered Text Detection* (IJCV 2025)  
-- **Size:** ~200k samples (Photoshop, GAN, diffusion)  
-- **Domain:** Scene text, documents  
-- **Tampering:** Photoshop edits, CNN, GAN, diffusion-based
 
-### Tampered-IC13
-- **Annotation:** Bounding Box  
-- **Paper:** *Detecting Tampered Scene Text in the Wild* (ECCV 2022)  
-- **Size:** 229 train + 233 test  
-- **Domain:** Scene text  
-- **Tampering:** SRNet-based neural manipulation
 
-### ETTD
-- **Annotation:** Pixel-level + natural language annotation  
-- **Paper:** *TextSleuth: Towards Explainable Tampered Text Detection* (arXiv 2024)  
-- **Size:** 10,400 train + 600 test + 1,000 CD  
-- **Domain:** Documents, ID cards, scene texts  
-- **Tampering:** Diffusion, copy-move, splicing, Photoshop
+## 2021  
 
-### RTM (Real Text Manipulation)
-- **Annotation:** Pixel-level binary masks  
-- **Paper:** *Toward Real Text Manipulation Detection: New Dataset and New Solution* (PR 2025)  
-- **Size:** 5,803 train + 3,197 test  
-- **Domain:** Charts, receipts, certificates, scanned docs  
-- **Tampering:** Copy-move, splicing, insertion, inpainting, coverage (Photoshop)
+### 🔹 CMID (Copy-Move ID)  
+- **Annotation**: Pixel-level  
+- **Paper**: [CMID: A New Dataset for Copy-Move Forgeries on ID Documents](https://cmiddataset.github.io/)  
+- **Domain**: ID Documents  
+- **Size**: Genuine: 304 | Tampered: 893  
+- **Tampering**: Copy-move  
+
+
+
+## 2022  
+
+### 🔹 FCD (Forged Character Detection Datasets)  
+- **Annotation**: Bounding box  
+- **Paper**: FORGED CHARACTER DETECTION DATASETS: Passports, Driving Licences and Visa Stickers  
+- **Subsets**:  
+  - FCD-P (Passport) – 15,000  
+  - FCD-D (Driving Licence) – 15,000  
+  - FCD-V (Visa Sticker) – 15,000  
+- **Tampering**: Character-level forgery  
+- **Implementation**: [GitHub Repo](https://github.com/turab45/Dataset-forged-characters-detection-on-driving-licences-and-passports)  
+
+### 🔹 Tampered-IC13  
+- **Annotation**: Bounding box  
+- **Paper**: Detecting Tampered Scene Text in the Wild (S3R strategy)  
+- **Domain**: Scene Texts  
+- **Subsets**: Training: 229 | Testing: 233  
+- **Tampering**: Neural network (SRNet)  
+
+
+
+## 2023  
+
+### 🔹 FSD (Forged Scanned Document)  
+- **Annotation**: Pixel-level segmentation  
+- **Paper**: [FSD: A Novel Forged Document Dataset and Baseline](https://drive.google.com/file/d/1mCFH41b-v4OXeYAVFB2MppSQKa-BHtLH/view)  
+- **Domain**: Scanned Documents (FUNSD-based)  
+- **Tampering**: Copy-move, Splicing, Resampling  
+
+### 🔹 DocTamper Dataset  
+- **Annotation**: Pixel-level segmentation  
+- **Paper**: Towards Robust Tampered Text Detection in Document Image: New dataset and New Solution  
+- **Subsets**:  
+  - Doc-Tamper Training: 120,000 (Contracts, Invoices, Receipts)  
+  - Doc-Tamper Testing: 30,000  
+  - DocTamper-FCD: 2,000 (Text pages, Noisy Office Dataset)  
+  - DocTamper-SCD: 18,000 (Receipts, Huawei Cloud)  
+- **Tampering**: Copy-move, Splicing, Generation  
+
+
+
+## 2024  
+
+### 🔹 ETTD (Explainable Tampered Text Detection Dataset)  
+- **Annotation**: Pixel-level + Natural language annotations  
+- **Paper**: TextSleuth: Towards Explainable Tampered Text Detection  
+- **Domain**: Documents, ID cards, scene texts  
+- **Subsets**:  
+  - ETTD-Train: 10,400  
+  - ETTD-Test: 600  
+  - ETTD-CD: 1,000 (Scene texts, ICDAR13)  
+- **Tampering**: Diffusion models, Copy-move, Splicing (Photoshop)  
+- **Implementation**: DiffUTE  
+
+
+## 2025  
+
+### 🔹 OSTF (Open-set Scene Text Forensics)  
+- **Annotation**: Bounding box  
+- **Paper**: Revisiting Tampered Scene Text Detection in the Era of Generative AI  
+- **Domain**: Scene text (ICDAR 2013, ReCTS, TextOCR, etc.)  
+- **Models Benchmarked**: Derend, SRNet, STEFANN, Mostel, DiffSTE, AnyText, Textdiff, Udifftext  
+
+### 🔹 RealDTT (Real-world Comprehensive Dataset of Tampered Text Images)  
+- **Annotation**: Pixel-level segmentation  
+- **Paper**: RealDTT: Towards A Comprehensive Real-World Dataset for Tampered Text Detection  
+- **Domain**: Scene text, documents (MARIO-LAION, FUNSD, ReCTS, LSVT, RCTW)  
+- **Subsets**:  
+  - Photoshop subset: 4,012  
+  - STEFANN: 500  
+  - MOSTEL: 15,000  
+  - VATr: 199  
+  - ViTEraser: 7,000  
+  - SRNet: 18,000  
+  - DiffSTE: 40,000  
+  - AnyText: 47,000  
+  - UDiffText: 127,881  
+  - TextDiffuser: 40,000  
+
+### 🔹 RTM (Real Text Manipulation) Dataset  
+- **Annotation**: Pixel-level binary masks  
+- **Paper**: Toward Real Text Manipulation Detection: New Dataset and New Solution  
+- **Domain**: Charts, receipts, certificates, scanned documents, tables (SROIE, FUNSD, TNCR, Volunteers)  
+- **Subsets**: Training: 5,803 | Testing: 3,197  
+- **Tampering**: Copy-move, Splicing, Insertion, Inpainting, Coverage (Photoshop)  
+- **Implementation**: ASC-Former  
+
+
 
 ---
 
