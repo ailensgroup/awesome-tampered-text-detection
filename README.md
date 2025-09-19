@@ -17,29 +17,29 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
   </tr>
 
   <tr>
-    <td>Wang et al. <a href="#ref1">[1]</a> : Deep Learning + ELA fusion</td>
+    <td>Yang et al. <a href="#ref1">[1]</a> : Deep Learning + ELA fusion</td>
     <td>2021</td>
     <td>ISEEIE</td>
     <td>Deep learning + ELA fusion</td>
     <td>Ali Tianchi Competition</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref2">[2]</a> : SR3</td>
+    <td>Wang et al.<a href="#ref2">[2]</a> : SR3</td>
     <td>2022</td>
     <td>ECCV</td>
     <td>SR3</td>
     <td><a href="https://github.com/wangyuxin87/Tampered-IC13">T-IC13</a></td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Wang et al. <a href="#ref3">[3]</a> : DTD</td>
+    <td>Qu et al. <a href="#ref3">[3]</a> : DTD</td>
     <td>2023</td>
     <td>CVPR</td>
     <td>DTD</td>
@@ -50,95 +50,95 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
   </tr>
 
   <tr>
-    <td>Zhang et al. <a href="#ref4">[4]</a> : FCN</td>
+    <td>Okamoto et al. <a href="#ref4">[4]</a> : FCN</td>
     <td>2023</td>
     <td>arXiv</td>
     <td>FCN (semantic segmentation)</td>
     <td>FD-VIED</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Chen et al. <a href="#ref5">[5]</a> : K-Means, Decision Trees, Logistic Regression</td>
+    <td>Jain <a href="#ref5">[5]</a> : K-Means, Decision Trees, Logistic Regression</td>
     <td>2024</td>
     <td>IRJET</td>
     <td>K-Means, Decision Trees, Logistic Regression</td>
     <td>–</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref6">[6]</a> : FFDN</td>
+    <td>Chen et al. <a href="#ref6">[6]</a> : FFDN</td>
     <td>2024</td>
     <td>ECCV</td>
     <td>FFDN</td>
     <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a></td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Zhang et al. <a href="#ref7">[7]</a> : TextSleuth / Tampered Text Detective</td>
+    <td>Qu et al. <a href="#ref7">[7]</a> : TextSleuth / Tampered Text Detective</td>
     <td>2024</td>
     <td>arXiv</td>
     <td>TextSleuth / Tampered Text Detective</td>
     <td>ETTD</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref8">[8]</a> : DTL-ARob</td>
+    <td>Shao et al.  <a href="#ref8">[8]</a> : DTL-ARob</td>
     <td>2024</td>
     <td>ECCV</td>
     <td>DTL-ARob</td>
     <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a>, <a href="https://github.com/wangyuxin87/Tampered_sroie">T-SROIE</a></td>
-    <td>✅</td>
-    <td>✅</td>
-    <td>✅</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Chen et al. <a href="#ref9">[9]</a> : SherlockNet</td>
+    <td>Wang et al. <a href="#ref9">[9]</a> : SherlockNet</td>
     <td>2024</td>
     <td>TMM</td>
     <td>SherlockNet</td>
     <td><a href="https://github.com/WangJingyao07/SherlockNet">EN-HA</a></td>
-    <td>✅</td>
-    <td>✅</td>
-    <td>✅</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Zhao et al. <a href="#ref10">[10]</a> : Dual-path framework</td>
+    <td>Li et al. <a href="#ref10">[10]</a> : Dual-path framework</td>
     <td>2024</td>
     <td>arXiv</td>
     <td>Dual-path framework</td>
     <td>Suning Scene Data</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref11">[11]</a> : CTP-Net</td>
+    <td>Liao et al. <a href="#ref11">[11]</a> : CTP-Net</td>
     <td>2024</td>
     <td>AAAI</td>
     <td>CTP-Net</td>
     <td>Fake Chinese Trademark (FCTM)</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref12">[12]</a> : Forgery trace enhancement + multiscale attention</td>
+    <td>Li et al.  <a href="#ref12">[12]</a> : MA-Net</td>
     <td>2024</td>
     <td>IEEE</td>
     <td>Forgery trace enhancement + multiscale attention</td>
@@ -149,18 +149,18 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref13">[13]</a> : EMF-Net</td>
+    <td>Ren et al. <a href="#ref13">[13]</a> : EMF-Net</td>
     <td>2024</td>
     <td>Expert Systems With Applications</td>
     <td>EMF-Net</td>
     <td><a href="https://github.com/tampered816/IPM15K">TMI12K</a></td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref14">[14]</a> : DAF + Text Jitter</td>
+    <td>Qu et al. <a href="#ref14">[14]</a> : DAF + Text Jitter</td>
     <td>2025</td>
     <td>AAAI</td>
     <td>DAF + Text Jitter</td>
@@ -171,47 +171,47 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref15">[15]</a> : TTDMamba</td>
+    <td>Duan et al. <a href="#ref15">[15]</a> : TTDMamba</td>
     <td>2025</td>
     <td>IJCV</td>
     <td>TTDMamba</td>
     <td><a href="https://github.com/edmundhaohao/RealDTT">RealTTD</a></td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Huang et al. <a href="#ref16">[16]</a> : ADCD-Net</td>
+    <td>Wong et al. <a href="#ref16">[16]</a> : ADCD-Net</td>
     <td>2025</td>
     <td>ICCV</td>
     <td>ADCD-Net</td>
     <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a></td>
     <td>✅</td>
     <td>✅</td>
-    <td>✅</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref17">[17]</a> : DCLNet</td>
+    <td>Li et al.  <a href="#ref17">[17]</a> : DCLNet</td>
     <td>2025</td>
     <td>Signal Processing</td>
     <td>DCLNet</td>
-    <td>DocTD</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref18">[18]</a> : TALIU</td>
+    <td>Nguyen et al.  <a href="#ref18">[18]</a> : TALIU</td>
     <td>2025</td>
     <td>IEEE</td>
     <td>TALIU</td>
     <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a></td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
@@ -220,9 +220,9 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
     <td>IEEE</td>
     <td>CD-SD</td>
     <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a></td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
@@ -230,128 +230,24 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
     <td>2025</td>
     <td>IET</td>
     <td>Spatial-Frequency Fusion + Swin-T</td>
-    <td>Document Tamper</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 
   <tr>
-    <td>Li et al. <a href="#ref21">[21]</a> : EdgeDoc</td>
+    <td>George & Marcel  <a href="#ref21">[21]</a> : EdgeDoc</td>
     <td>2025</td>
     <td>Pattern Recognition</td>
     <td>EdgeDoc</td>
-    <td>–</td>
-    <td>❌</td>
-    <td>❌</td>
-    <td>❌</td>
+    <td>FantasyID</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 </table>
----
 
-### 2021
-- **Document Image Forgery Detection Based on Deep Learning Models**  
-  *ISEEIE 2021* | Deep learning + ELA fusion | Dataset: Ali Tianchi Competition  
-  🔗 *No code available*
-
----
-
-### 2022
-- **Detecting Tampered Scene Text in the Wild**  
-  *ECCV 2022* | SR3 | Dataset: [T-IC13](https://github.com/wangyuxin87/Tampered-IC13)  
-  🔗 Code: *Not available*
-
----
-
-### 2023
-- **Towards Robust Tampered Text Detection in Document Image: New Dataset and New Solution**  
-  *CVPR 2023* | DTD | Dataset: [Doc-Tamper](https://github.com/qcf-568/DocTamper)  
-  🔗 [Code](https://github.com/qcf-568/DocTamper)
-
-- **Image Generation and Learning Strategy for Deep Document Forgery Detection**  
-  *arXiv 2023* | FCN (semantic segmentation) | Dataset: FD-VIED  
-  🔗 *No code available*
-
----
-
-### 2024
-- **AI-Driven OCR for Fraud Detection in FinTech Income Verification Systems**  
-  *IRJET 2024* | K-Means, Decision Trees, Logistic Regression  
-  🔗 *No dataset/code available*
-
-- **Enhancing Tampered Text Detection through Frequency Feature Fusion and Decomposition**  
-  *ECCV 2024* | FFDN | Dataset: [Doc-Tamper](https://github.com/qcf-568/DocTamper)  
-  🔗 *No code available*
-
-- **Explainable Tampered Text Detection via Multimodal Large Models**  
-  *arXiv 2024* | TextSleuth / Tampered Text Detective | Dataset: ETTD  
-  🔗 *No code available*
-
-- **Delving into Adversarial Robustness on Document Tampering Localization**  
-  *ECCV 2024* | DTL-ARob | Dataset: [Doc-Tamper](https://github.com/qcf-568/DocTamper), [T-SROIE](https://github.com/wangyuxin87/Tampered_sroie)  
-  🔗 [Code](https://github.com/SHR-77/DTL-ARob.git)
-
-- **Image-based Freeform Handwriting Authentication with Energy-oriented Self-Supervised Learning**  
-  *TMM 2024* | SherlockNet | Dataset: [EN-HA](https://github.com/WangJingyao07/SherlockNet)  
-  🔗 [Code](https://github.com/WangJingyao07/SherlockNet)
-
-- **Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition**  
-  *arXiv 2024* | Dual-path framework | Dataset: Suning Scene Data  
-  🔗 *No code available*
-
-- **CTP-Net: Character Texture Perception Network for Document Image Forgery Localization**  
-  *AAAI 2024* | CTP-Net | Dataset: Fake Chinese Trademark (FCTM)  
-  🔗 *No code available*
-
-- **Robust Text Image Tampering Localization via Forgery Traces Enhancement & Multiscale Attention**  
-  *IEEE 2024* | Forgery trace enhancement + multiscale attention | Dataset: TextTamper  
-  🔗 [Code](https://github.com/nbudongli/text-image-forgery-detection)
-
-- **EMF-Net: Edge-Guided Multi-Feature Fusion Network for Text Manipulation Detection**  
-  *Expert Systems With Applications 2024* | EMF-Net | Dataset: [TMI12K](https://github.com/tampered816/IPM15K)  
-  🔗 *No code available*
-
----
-
-### 2025
-- **Revisiting Tampered Scene Text Detection in the Era of Generative AI**  
-  *AAAI 2025* | DAF + Text Jitter | Dataset: [OSTF](https://github.com/qcf-568/OSTF)  
-  🔗 [Code](https://github.com/qcf-568/OSTF)
-
-- **RealDTT: Comprehensive Dataset for Tampered Text Detection**  
-  *IJCV 2025* | TTDMamba | Dataset: [RealTTD](https://github.com/edmundhaohao/RealDTT)  
-  🔗 *No code available*
-
-- **Toward Real Text Manipulation Detection: New Dataset and New Solution**  
-  *Pattern Recognition 2025* | ASC-Former | Dataset: [RTM](https://github.com/DrLuo/RTM)  
-  🔗 [Code](https://github.com/DrLuo/RTM)
-
-- **ADCD-Net: Robust Document Image Forgery Localization**  
-  *ICCV 2025* | ADCD-Net | Dataset: [Doc-Tamper](https://github.com/qcf-568/DocTamper)  
-  🔗 [Code](https://github.com/KAHIMWONG/ACDC-Net)
-
-- **Document Image Forgery Detection & Localization in Desensitization Scenarios**  
-  *Signal Processing 2025* | DCLNet | Dataset: DocTD  
-  🔗 *No code available*
-
-
-- **TALIU: Decoder & Augmentation Strategy for Tampered Document Detection**  
-  *IEEE 2025* | TALIU | Dataset: [Doc-Tamper](https://github.com/qcf-568/DocTamper)  
-  🔗 *No code available*
-
-- **Generalized Document Tampering Localization via Color & Semantic Disentanglement**  
-  *IEEE 2025* | CD-SD | Dataset: [Doc-Tamper](https://github.com/qcf-568/DocTamper)  
-  🔗 *No code available*
-
-- **Multiclassification Tampering Detection Algorithm via Spatial-Frequency Fusion + Swin-T**  
-  *IET 2025* | Spatial-Frequency Fusion + Swin-T | Dataset: Document Tamper  
-  🔗 *No code available*
-
-- **EdgeDoc: Hybrid CNN-Transformer Model for ID Document Forgery Detection**  
-  *IEEE 2025* | EdgeDoc | Dataset: [FantasyID](https://www.idiap.ch/paper/fantasyid/)  
-  🔗 [Code](https://www.idiap.ch/paper/edgedoc/)
-
----
 
 ## 📂 Key Datasets
 
@@ -464,35 +360,54 @@ A curated collection of papers, datasets, code, and tools for detecting tampered
 - **Tampering**: Copy-move, Splicing, Insertion, Inpainting, Coverage (Photoshop)  
 - **Implementation**: ASC-Former  
 
----
 
 
+## Paper List 
 
-<a id="ref1"></a>[1] P. Yang, W. Fang, F. Zhang, L. Bai, Y. Gao, "Document Image Forgery Detection Based on Deep Learning Models," *2022 International Symposium on Electrical, Electronics and Information Engineering (ISEEIE)*, 2022, pp. 1-5, [Paper](https://ieeexplore.ieee.org/document/9853295).
+<a id="ref1"></a>[1] P. Yang, W. Fang, F. Zhang, L. Bai, Y. Gao, "Document Image Forgery Detection Based on Deep Learning Models," *2022 International Symposium on Electrical, Electronics and Information Engineering (ISEEIE)*, 2022, pp. 1-5, [Paper](https://ieeexplore.ieee.org/document/9853295)
 
 
-<a id="ref2"></a>[2] Y. Wang, C. Liu, X. Liu, D. Peng, L. Jin, "SR3 for Tampered Text Detection," *Proceedings of the European Conference on Computer Vision (ECCV)*, 2022, pp. 1234-1245, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880214.pdf).
+<a id="ref2"></a>[2] Y. Wang, C. Liu, X. Liu, D. Peng, L. Jin, "SR3 for Tampered Text Detection," *Proceedings of the European Conference on Computer Vision (ECCV)*, 2022, pp. 1234-1245, [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880214.pdf)
 
-<a id="ref3"></a>[3] C. Qu, Y. Liu, X. Liu, D. Peng, F. Guo, L. Jin, "DTD: Document Tampering Detection," *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2023, pp. 5937–5946 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Qu_Towards_Robust_Tampered_Text_Detection_in_Document_Image_New_Dataset_CVPR_2023_paper.pdf) | [code](https://github.com/qcf-568/DocTamper).
+<a id="ref3"></a>[3] C. Qu, Y. Liu, X. Liu, D. Peng, F. Guo, L. Jin, "DTD: Document Tampering Detection," *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2023, pp. 5937–5946 [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Qu_Towards_Robust_Tampered_Text_Detection_in_Document_Image_New_Dataset_CVPR_2023_paper.pdf) | [Code](https://github.com/qcf-568/DocTamper)
 
-<a id="ref4"></a>[4] Zhang et al., *FCN-based Document Forgery Detection*, arXiv 2023.  
-<a id="ref5"></a>[5] Chen et al., *Handwriting Authentication via K-Means etc.*, IRJET 2024.  
-<a id="ref6"></a>[6] Li et al., *FFDN: Forgery Feature Detection Network*, ECCV 2024.  
-<a id="ref7"></a>[7] Zhang et al., *TextSleuth: Tampered Text Detection*, arXiv 2024.  
-<a id="ref8"></a>[8] Li et al., *DTL-ARob: Document Tamper Localization*, ECCV 2024.  
-<a id="ref9"></a>[9] Chen et al., *SherlockNet for Tamper Localization*, TMM 2024.  
-<a id="ref10"></a>[10] Zhao et al., *Dual-path Framework for Scene Text*, arXiv 2024.  
-<a id="ref11"></a>[11] Li et al., *CTP-Net for Trademark Forgery*, AAAI 2024.  
-<a id="ref12"></a>[12] Li et al., *Forgery Trace Enhancement*, IEEE 2024.  
-<a id="ref13"></a>[13] Li et al., *EMF-Net*, Expert Systems With Applications 2024.  
-<a id="ref14"></a>[14] Li et al., *DAF + Text Jitter*, AAAI 2025.  
-<a id="ref15"></a>[15] Li et al., *TTDMamba*, IJCV 2025.  
-<a id="ref16"></a>[16] Huang et al., *ADCD-Net*, ICCV 2025.  
-<a id="ref17"></a>[17] Li et al., *DCLNet*, Signal Processing 2025.  
-<a id="ref18"></a>[18] Li et al., *TALIU*, IEEE 2025.  
-<a id="ref19"></a>[19] Li et al., *CD-SD*, IEEE 2025.  
-<a id="ref20"></a>[20] Li et al., *Spatial-Frequency Fusion + Swin-T*, IET 2025.  
-<a id="ref21"></a>[21] Li et al., *EdgeDoc*, Pattern Recognition 2025. 
+<a id="ref4"></a>[4] Y. Okamoto, G. Osada, I. Yahiro, R. Hasegawa, P. Zhu, H. Kataoka, "Image Generation and Learning Strategy for Deep Document Forgery Detection," *arXiv preprint arXiv:2311.03650*, Nov. 2023. [Paper](https://arxiv.org/pdf/2311.03650).
+
+<a id="ref5"></a>[5] J. Jain, "AI-Driven OCR for Fraud Detection in FinTech Income Verification Systems," *International Research Journal of Engineering and Technology (IRJET)*, Vol. 11, Issue 12, Dec. 2024, pp. 850-854. [Paper](https://www.irjet.net/archives/V11/i12/IRJET-V11I12116.pdf)
+
+<a id="ref6"></a>[6] Z. Chen, S. Chen, T. Yao, K. Sun, S. Ding, X. Lin, L. Cao, R. Ji, "Enhancing Tampered Text Detection through Frequency Feature Fusion and Decomposition" in *Proceedings of the European Conference on Computer Vision (ECCV)*, 2024, pp. (exact pages), [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04834.pdf)
+
+<a id="ref7"></a>[7] C. Qu, J. Liu, H. Chen, B. Yu, J. Liu, W. Wang, L. Jin, "Explainable Tampered Text Detection via Multimodal Large Models," *arXiv preprint arXiv:2412.14816v2*, Dec. 2024. [Paper](https://arxiv.org/pdf/2412.14816v2)
+
+<a id="ref8"></a>[8] H. Shao, Z. Qian, K. Huang, W. Wang, X. Huang, Q. Wang, "Delving into Adversarial Robustness on Document Tampering Localization," *Proceedings of the European Conference on Computer Vision (ECCV)*, 2024. [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08224.pdf)
+
+<a id="ref9"></a>[9] J. Wang, L. Mou, C. Zheng, W. Gao, "Image-based Freeform Handwriting Authentication with Energy-oriented Self-Supervised Learning," *arXiv preprint arXiv:2408.09676*, Aug. 2024. [Paper](https://arxiv.org/pdf/2408.09676)
+
+<a id="ref10"></a>[10] G. Li, X. Yang, W. Ma, "A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition," *arXiv preprint arXiv:2402.13545v2*, Feb. 2024. [Paper](https://arxiv.org/pdf/2402.13545.pdf)
+
+<a id="ref11"></a>[11] X. Liao, S. Chen, J. Chen, T. Wang, X. Li, "CTP-Net: Character Texture Perception Network for Document Image Forgery Localization," *arXiv preprint arXiv:2308.02158v1*, Aug. 2023. [Paper](https://arxiv.org/pdf/2308.02158v1)
+
+<a id="ref12"></a>[12] B. Li, J. Xu, Y. Wang, Z. Wu, "Robust Text Image Tampering Localization via Forgery Traces Enhancement and Multiscale Attention," *IEEE Transactions on Information Forensics and Security (TIFS)*, 2024. [Paper](https://ieeexplore.ieee.org/document/10440540/) | [Code](https://github.com/nbudongli/text-image-forgery-detection)
+
+
+<a id="ref13"></a>[13] R. Ren, Q. Hao, F. Gu, S. Niu, J. Zhang, M. Wang, "EMF-Net: An Edge-Guided Multi-Feature Fusion Network for Text Manipulation Detection," *Expert Systems with Applications*, Vol. 249, Part A, 2024, 123548. [Paper](https://www.sciencedirect.com/science/article/pii/S0957417424004135)
+
+<a id="ref14"></a>[14] C. Qu, Y. Zhong, F. Guo, L. Jin, "Revisiting Tampered Scene Text Detection in the Era of Generative AI," *arXiv preprint arXiv:2407.21422*, 2025. [Paper](https://arxiv.org/pdf/2407.21422) | [Code](https://github.com/qcf-568/OSTF)  
+ 
+<a id="ref15"></a>[15] J. Duan, H. Sun, F. Ji, et al., "RealDTT: Towards A Comprehensive Real-World Dataset for Tampered Text Detection," *International Journal of Computer Vision*, 2025. [Paper](https://link.springer.com/article/10.1007/s11263-025-02515-2)
+
+<a id="ref16"></a>[16] K. Wong, J. Zhou, H. Wu, Y.-W. Si, J. Zhou, "ADCD-Net: Robust Document Image Forgery Localization via Adaptive DCT Feature and Hierarchical Content Disentanglement," *arXiv preprint arXiv:2507.16397*, 2025. [Paper](https://arxiv.org/pdf/2507.16397) | [Code](https://github.com/KAHIMWONG/ADCD-Net)
+
+
+<a id="ref17"></a>[17] W. Li, B. Li, K. Zheng, S. Li, H. Li, "Document image forgery detection and localization in desensitization scenarios," *Signal Processing*, vol. 238, 110123, 2025. [Paper](https://www.sciencedirect.com/science/article/pii/S0165168425002373)
+
+<a id="ref18"></a>[18] A. D. Nguyen, H.-Y. Kim, H. N. Nguyen, "TALIU: A Novel Decoder and Augmentation Strategy for Boosting Tampered Document Image Detection," *IEEE Access*, vol. 13, pp. 70340-70351, 2025. [Paper](https://ieeexplore.ieee.org/document/10964281)  
+
+<a id="ref19"></a>[19] L. Li, Y. Bai, S. Zhang, M. Emam, "Document forgery detection based on spatial-frequency and multi-scale feature network," *Journal of Visual Communication and Image Representation*, vol. 107, 104393, 2025. [Paper](https://www.sciencedirect.com/science/article/pii/S1047320325000070) 
+
+<a id="ref20"></a>[20] L. Li, K. Zhang, J. Lu, S. Zhang, N. Chu, "Multiclassification Tampering Detection Algorithm Based on Spatial-Frequency Fusion and Swin-T," *IET Image Processing*, vol. 19, 2025. [Paper](https://www.researchgate.net/publication/389433177_Multiclassification_Tampering_Detection_Algorithm_Based_on_Spatial-Frequency_Fusion_and_Swin-T)
+
+<a id="ref21"></a>[21] A. George, S. Marcel, "EdgeDoc: Hybrid CNN-Transformer Model for Accurate Forgery Detection and Localization in ID Documents," *arXiv preprint arXiv:2508.16284*, 2025. [Paper](https://arxiv.org/pdf/2508.16284)
 
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or pull request to add more papers, datasets, or implementations.
