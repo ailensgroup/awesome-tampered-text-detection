@@ -18,7 +18,7 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 
   <tr>
     <td>Yang et al. <a href="#ref1">[1]</a> : Deep Learning + ELA fusion</td>
-    <td>2021</td>
+    <td>2022</td>
     <td>ISEEIE</td>
     <td>Deep learning + ELA fusion</td>
     <td>Ali Tianchi Competition</td>
@@ -107,7 +107,7 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
   <tr>
     <td>Wang et al. <a href="#ref9">[9]</a> : SherlockNet</td>
     <td>2024</td>
-    <td>TMM</td>
+    <td>IEEE</td>
     <td>SherlockNet</td>
     <td><a href="https://github.com/WangJingyao07/SherlockNet">EN-HA</a></td>
     <td>-</td>
@@ -128,8 +128,8 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 
   <tr>
     <td>Liao et al. <a href="#ref11">[11]</a> : CTP-Net</td>
-    <td>2024</td>
-    <td>AAAI</td>
+    <td>2023</td>
+    <td>arXiv</td>
     <td>CTP-Net</td>
     <td>Fake Chinese Trademark (FCTM)</td>
     <td>-</td>
@@ -217,7 +217,7 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
   <tr>
     <td>Li et al. <a href="#ref19">[19]</a> : CD-SD</td>
     <td>2025</td>
-    <td>IEEE</td>
+    <td>JVCIR</td>
     <td>CD-SD</td>
     <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a></td>
     <td>-</td>
@@ -376,13 +376,13 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 
 <a id="ref5"></a>[5] J. Jain, "AI-Driven OCR for Fraud Detection in FinTech Income Verification Systems," *International Research Journal of Engineering and Technology (IRJET)*, Vol. 11, Issue 12, Dec. 2024, pp. 850-854. [Paper](https://www.irjet.net/archives/V11/i12/IRJET-V11I12116.pdf)
 
-<a id="ref6"></a>[6] Z. Chen, S. Chen, T. Yao, K. Sun, S. Ding, X. Lin, L. Cao, R. Ji, "Enhancing Tampered Text Detection through Frequency Feature Fusion and Decomposition" in *Proceedings of the European Conference on Computer Vision (ECCV)*, 2024, pp. (exact pages), [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04834.pdf)
+<a id="ref6"></a>[6] Z. Chen, S. Chen, T. Yao, K. Sun, S. Ding, X. Lin, L. Cao, R. Ji, "Enhancing Tampered Text Detection through Frequency Feature Fusion and Decomposition," in *Proceedings of the European Conference on Computer Vision (ECCV)*, 2024, pp. 394-411. [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04834.pdf)
 
 <a id="ref7"></a>[7] C. Qu, J. Liu, H. Chen, B. Yu, J. Liu, W. Wang, L. Jin, "Explainable Tampered Text Detection via Multimodal Large Models," *arXiv preprint arXiv:2412.14816v2*, Dec. 2024. [Paper](https://arxiv.org/pdf/2412.14816v2)
 
 <a id="ref8"></a>[8] H. Shao, Z. Qian, K. Huang, W. Wang, X. Huang, Q. Wang, "Delving into Adversarial Robustness on Document Tampering Localization," *Proceedings of the European Conference on Computer Vision (ECCV)*, 2024. [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08224.pdf)
 
-<a id="ref9"></a>[9] J. Wang, L. Mou, C. Zheng, W. Gao, "Image-based Freeform Handwriting Authentication with Energy-oriented Self-Supervised Learning," *arXiv preprint arXiv:2408.09676*, Aug. 2024. [Paper](https://arxiv.org/pdf/2408.09676)
+<a id="refX"></a>[9] J. Wang, L. Mou, C. Zheng, W. Gao, "Image-Based Freeform Handwriting Authentication With Energy-Oriented Self-Supervised Learning," *IEEE Transactions on Multimedia*, vol. 27, pp. 1397-1409, 2025. [Paper](https://doi.org/10.1109/TMM.2024.3521807)
 
 <a id="ref10"></a>[10] G. Li, X. Yang, W. Ma, "A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition," *arXiv preprint arXiv:2402.13545v2*, Feb. 2024. [Paper](https://arxiv.org/pdf/2402.13545.pdf)
 
@@ -393,11 +393,11 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 
 <a id="ref13"></a>[13] R. Ren, Q. Hao, F. Gu, S. Niu, J. Zhang, M. Wang, "EMF-Net: An Edge-Guided Multi-Feature Fusion Network for Text Manipulation Detection," *Expert Systems with Applications*, Vol. 249, Part A, 2024, 123548. [Paper](https://www.sciencedirect.com/science/article/pii/S0957417424004135)
 
-<a id="ref14"></a>[14] C. Qu, Y. Zhong, F. Guo, L. Jin, "Revisiting Tampered Scene Text Detection in the Era of Generative AI," *arXiv preprint arXiv:2407.21422*, 2025. [Paper](https://arxiv.org/pdf/2407.21422) | [Code](https://github.com/qcf-568/OSTF)  
+<a id="ref14"></a>[14] C. Qu, Y. Zhong, F. Guo, L. Jin, "Revisiting Tampered Scene Text Detection in the Era of Generative AI," *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, pp. 694–702, 2025. [Paper](https://arxiv.org/pdf/2407.21422) | [Code](https://github.com/qcf-568/OSTF)
  
 <a id="ref15"></a>[15] J. Duan, H. Sun, F. Ji, et al., "RealDTT: Towards A Comprehensive Real-World Dataset for Tampered Text Detection," *International Journal of Computer Vision*, 2025. [Paper](https://link.springer.com/article/10.1007/s11263-025-02515-2)
 
-<a id="ref16"></a>[16] K. Wong, J. Zhou, H. Wu, Y.-W. Si, J. Zhou, "ADCD-Net: Robust Document Image Forgery Localization via Adaptive DCT Feature and Hierarchical Content Disentanglement," *arXiv preprint arXiv:2507.16397*, 2025. [Paper](https://arxiv.org/pdf/2507.16397) | [Code](https://github.com/KAHIMWONG/ADCD-Net)
+<a id="ref16"></a>[16] K. A. Wong, J. Zhou, H. Wu, Y.-W. Si, J. Zhou, “ADCD-Net: Robust Document Image Forgery Localization via Adaptive DCT Feature and Hierarchical Content Disentanglement,” *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025. [Paper](https://arxiv.org/pdf/2507.16397) | [Code](https://github.com/KAHIMWONG/ADCD-Net)
 
 
 <a id="ref17"></a>[17] W. Li, B. Li, K. Zheng, S. Li, H. Li, "Document image forgery detection and localization in desensitization scenarios," *Signal Processing*, vol. 238, 110123, 2025. [Paper](https://www.sciencedirect.com/science/article/pii/S0165168425002373)
