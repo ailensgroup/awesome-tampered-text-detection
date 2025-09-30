@@ -1,5 +1,11 @@
-# awesome-tampered-text-detection
+# Awesome Tampered Text Detection 
 A curated collection of **papers, datasets, code, and tools** for detecting tampered text and forged documents.  
+
+## Table of Contents
+1. [Papers](#papers)
+2. [Key Datasets](#key-datasets)
+3. [Text Tampering Methods](#text-tampering-methods)
+4. [References](#references)
 
 ---
 
@@ -252,114 +258,195 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 
 ## 📂 Key Datasets
 
-## 2017  
+### A Dataset for Forgery Detection and Spotting in Document Images (2017) <a href="#ref22">[22]</a>
+- Introduction: Character-level ground truth on payslip documents with XML annotations for character bounding boxes and values; 677 images focusing on copy-paste tampering.
+- Link: [Dataset Homepage](http://navidomass.univ-lr.fr/ForgeryDataset/)
 
-### 🔹 A Dataset for Forgery Detection and Spotting in Document Images  
-- **Annotation**: Character-level bounding boxes + values (XML)  
-- **Paper**: [A Dataset for Forgery Detection and Spotting in Document Images](http://navidomass.univ-lr.fr/ForgeryDataset/)  
-- **Domain**: Payslips  
-- **Size**: 677  
-- **Tampering**: Copy-paste  
+### CMID — Copy-Move ID (2021) <a href="#ref23">[23]</a>
+- Introduction: Pixel-level masks for copy-move forgeries on ID documents. Includes separate genuine (304) and tampered (893) images.
+- Link: [Dataset Homepage](https://cmiddataset.github.io/)
+
+### FCD — Forged Character Detection Datasets (2022) <a href="#ref24">[24]</a>
+- Introduction: Bounding-box annotations for forged characters across passports, driving licences, and visa stickers; three 15K-image subsets.
+- Link: [Implementation code](https://github.com/turab45/Dataset-forged-characters-detection-on-driving-licences-and-passports) | [FCD-P](https://www.kaggle.com/datasets/turabbajeer/forged-characters-detection-on-passports) | [FCD-D](https://www.kaggle.com/datasets/turabbajeer/forged-characters-detection-on-driving-licence) | [FCD-V](https://www.kaggle.com/datasets/turabbajeer/forged-character-detection-dataset-on-visa-cards)
+
+### Tampered-IC13 (2022) <a href="#ref2">[2]</a>
+- Introduction: Bounding-box annotations over ICDAR 2013 scene text images with S3R strategy; train/test splits 229/233. Tampering generated via SRNet.
+- Link: [Dataset Homepage](https://github.com/wangyuxin87/Tampered-IC13)
+
+### FSD — Forged Scanned Document (2023) <a href="#ref25">[25]</a>
+- Introduction: Pixel-level segmentation masks for forged documents built on FUNSD; covers copy-move, splicing, and resampling.
+- Link: [Download Link](https://drive.google.com/file/d/1mCFH41b-v4OXeYAVFB2MppSQKa-BHtLH/view)
+
+### DocTamper (2023) <a href="#ref3">[3]</a>
+- Introduction: Large-scale pixel-level dataset for document tampering localization with multiple subsets (contracts, invoices, receipts, noisy office, scanned receipts).
+- Link: [Dataset Homepage](https://github.com/qcf-568/DocTamper)
+
+### ETTD — Explainable Tampered Text Detection Dataset (2024) <a href="#ref7">[7]</a>
+- Introduction: Pixel-level masks with natural language rationales for documents, IDs, and scene texts; includes ETTD-Train, ETTD-Test, and class-agnostic ETTD-CD.
+- Link: Not Available
+
+### TextTamper (2024) <a href="#ref12">[12]</a>
+- Introduction: Pixel-level annotations for text tampering localization across certificates, documents, and tables; created with rule-based, Poisson, and deep image blending.
+- Link: [Dataset Homepage](https://github.com/nbudongli/text-image-forgery-detection)
+
+### OSTF — Open-set Scene Text Forensics (2025) <a href="#ref14">[14]</a>
+- Introduction: Open-set benchmark on scene text with bounding boxes; evaluates multiple generation/erasure models (Derend, SRNet, STEFANN, Mostel, DiffSTE, AnyText, Textdiff, UDiffText) on ICDAR 2013, ReCTS, TextOCR, etc.
+- Link: [Dataset Homepage](https://github.com/qcf-568/OSTF)
+
+### RealDTT — Real-world Comprehensive Dataset of Tampered Text Images (2025) <a href="#ref15">[15]</a>
+- Introduction: Pixel-level segmentation across scene text and documents from MARIO-LAION, FUNSD, ReCTS, LSVT, RCTW; includes Photoshop, STEFANN, MOSTEL, VATr, ViTEraser, SRNet, DiffSTE, AnyText, UDiffText, TextDiffuser subsets.
+- Link: [Dataset Homepage](https://github.com/edmundhaohao/RealDTT)
+
+### RTM — Real Text Manipulation (2025) <a href="#ref26">[26]</a>
+- Introduction: Pixel-level binary masks for varied manipulations (copy-move, splicing, insertion, inpainting, coverage) across charts, receipts, certificates, scanned docs, table-heavy pages; train/test from SROIE, FUNSD, TNCR, volunteers.
+- Link: [Dataset Home page](https://github.com/DrLuo/RTM)
+
+---
+
+### Comparison Table
+
+<table>
+  <tr>
+    <td><b>Datasets</b></td>
+    <td><b>Language</b></td>
+    <td><b>Annotation level</b></td>
+    <td><b>Subset</b></td>
+    <td><b>Domain</b></td>
+  </tr>
+
+  <tr>
+    <td>A Dataset for Forgery Detection and Spotting in Document Images <a href="#ref22">[22]</a></td>
+    <td>French</td>
+    <td>Character-level (XML)</td>
+    <td>-</td>
+    <td>Payslips</td>
+  </tr>
+
+  <tr>
+    <td>CMID (Copy-Move ID) <a href="#ref23">[23]</a></td>
+    <td>French</td>
+    <td>Pixel-level</td>
+    <td>Genuine / Tampered</td>
+    <td>ID documents</td>
+  </tr>
+
+  <tr>
+    <td>FCD <a href="#ref24">[24]</a></td>
+    <td>English</td>
+    <td>Bounding box</td>
+    <td>FCD-P / FCD-D / FCD-V</td>
+    <td>Passports, Driving Licences, Visa Stickers</td>
+  </tr>
+
+  <tr>
+    <td>Tampered-IC13 <a href="#ref2">[2]</a></td>
+    <td>English</td>
+    <td>Bounding box</td>
+    <td>Train / Test</td>
+    <td>Scene texts</td>
+  </tr>
+
+  <tr>
+    <td>FSD (Forged Scanned Document) <a href="#ref25">[25]</a></td>
+    <td>English</td>
+    <td>Pixel-level (segmentation)</td>
+    <td>Train / Test / Authentic</td>
+    <td>Scanned documents</td>
+  </tr>
+
+  <tr>
+    <td>DocTamper <a href="#ref3">[3]</a></td>
+    <td>English, Chinese</td>
+    <td>Pixel-level (segmentation)</td>
+    <td>Train / Test / DocTamper-FCD / DocTamper-SCD</td>
+    <td>Contracts, Invoices, Receipts, Text pages</td>
+  </tr>
+
+  <tr>
+    <td>ETTD <a href="#ref7">[7]</a></td>
+    <td>English, Chinese</td>
+    <td>Pixel-level + Natural language</td>
+    <td>Train / Test / ETTD-CD</td>
+    <td>Documents, ID cards, Scene texts</td>
+  </tr>
+
+  <tr>
+    <td>TextTamper <a href="#ref12">[12]</a></td>
+    <td>Chinese</td>
+    <td>Pixel-level</td>
+    <td>Train / Val</td>
+    <td>Certificates, Documents, Tables</td>
+  </tr>
+
+  <tr>
+    <td>OSTF <a href="#ref14">[14]</a></td>
+    <td>Chinese</td>
+    <td>Bounding box</td>
+    <td>Model-specific splits</td>
+    <td>Scene text</td>
+  </tr>
+
+  <tr>
+    <td>RealDTT <a href="#ref15">[15]</a></td>
+    <td>Various</td>
+    <td>Pixel-level (segmentation)</td>
+    <td>Photoshop / STEFANN / MOSTEL / VATr / ViTEraser / SRNet / DiffSTE / AnyText / UDiffText / TextDiffuser</td>
+    <td>Scene text, Documents</td>
+  </tr>
+
+  <tr>
+    <td>RTM <a href="#ref26">[26]</a></td>
+    <td>English</td>
+    <td>Pixel-level (binary masks)</td>
+    <td>Train / Test</td>
+    <td>Charts, Receipts, Certificates, Scanned documents, Tables</td>
+  </tr>
+</table>
+
+## 🛠️ Text Tampering Methods
+
+### DiffUTE — Universal Text Editing Diffusion Model
+- Diffusion-based universal text-editing; replaces or modifies words while preserving style and background. Great for diffusion-driven text replacement and high-fidelity edits.
+- Link: [GitHub](https://github.com/chenhaoxing/DiffUTE)
 
 
-
-## 2021  
-
-### 🔹 CMID (Copy-Move ID)  
-- **Annotation**: Pixel-level  
-- **Paper**: [CMID: A New Dataset for Copy-Move Forgeries on ID Documents](https://cmiddataset.github.io/)  
-- **Domain**: ID Documents  
-- **Size**: Genuine: 304 | Tampered: 893  
-- **Tampering**: Copy-move  
+### MOSTEL — Stroke-level Scene Text Editing
+- Stroke-aware editing at the stroke level for better glyph/edge fidelity; minimizes disruption to stroke structure for realistic tampering.
+- Link: [GitHub](https://github.com/qqqyd/MOSTEL)
 
 
-
-## 2022  
-
-### 🔹 FCD (Forged Character Detection Datasets)  
-- **Annotation**: Bounding box  
-- **Paper**: FORGED CHARACTER DETECTION DATASETS: Passports, Driving Licences and Visa Stickers  
-- **Subsets**:  
-  - FCD-P (Passport) - 15,000  
-  - FCD-D (Driving Licence) - 15,000  
-  - FCD-V (Visa Sticker) - 15,000  
-- **Tampering**: Character-level forgery  
-- **Implementation**: [GitHub Repo](https://github.com/turab45/Dataset-forged-characters-detection-on-driving-licences-and-passports)  
-
-### 🔹 Tampered-IC13  
-- **Annotation**: Bounding box  
-- **Paper**: Detecting Tampered Scene Text in the Wild (S3R strategy)  
-- **Domain**: Scene Texts  
-- **Subsets**: Training: 229 | Testing: 233  
-- **Tampering**: Neural network (SRNet)  
+### SRNet (SRNet / SwapText family)
+- GAN-based word/region-level editing preserving background context and font style; classical baseline for quick experiments.
+- Link: [GitHub](https://github.com/lksshw/SRNet)
 
 
+### dRENDER / De-rendering Stylized Text
+- Parses rendering parameters of stylized text to de-render and re-render with precise, style-preserving control.
+- Link: [GitHub](https://github.com/CyberAgentAILab/derendering-text)
 
-## 2023  
-
-### 🔹 FSD (Forged Scanned Document)  
-- **Annotation**: Pixel-level segmentation  
-- **Paper**: [FSD: A Novel Forged Document Dataset and Baseline](https://drive.google.com/file/d/1mCFH41b-v4OXeYAVFB2MppSQKa-BHtLH/view)  
-- **Domain**: Scanned Documents (FUNSD-based)  
-- **Tampering**: Copy-move, Splicing, Resampling  
-
-### 🔹 DocTamper Dataset  
-- **Annotation**: Pixel-level segmentation  
-- **Paper**: Towards Robust Tampered Text Detection in Document Image: New dataset and New Solution  
-- **Subsets**:  
-  - Doc-Tamper Training: 120,000 (Contracts, Invoices, Receipts)  
-  - Doc-Tamper Testing: 30,000  
-  - DocTamper-FCD: 2,000 (Text pages, Noisy Office Dataset)  
-  - DocTamper-SCD: 18,000 (Receipts, Huawei Cloud)  
-- **Tampering**: Copy-move, Splicing, Generation  
+### STEFANN — Scene Text Editor using Font-Adaptive Neural Network
+- Character-level font-adaptive editor (FANnet + Colornet) preserving font structure and color; good for per-character edits and synthesis.
+- Link: [GitHub](https://github.com/prasunroy/stefann)
 
 
-
-## 2024  
-
-### 🔹 ETTD (Explainable Tampered Text Detection Dataset)  
-- **Annotation**: Pixel-level + Natural language annotations  
-- **Paper**: TextSleuth: Towards Explainable Tampered Text Detection  
-- **Domain**: Documents, ID cards, scene texts  
-- **Subsets**:  
-  - ETTD-Train: 10,400  
-  - ETTD-Test: 600  
-  - ETTD-CD: 1,000 (Scene texts, ICDAR13)  
-- **Tampering**: Diffusion models, Copy-move, Splicing (Photoshop)  
-- **Implementation**: DiffUTE  
+### AnyText / AnyText2
+- Diffusion-based multilingual text generation and editing; AnyText2 improves speed and multilingual quality.
+- Link: [GitHub](https://github.com/tyxsspa/AnyText)
 
 
-## 2025  
+### TextCtrl — Diffusion-based Scene Text Editing with Prior Guidance Control
+- Disentangles style and glyph structure with prior guidance for faithful style preservation; strong modern diffusion baseline.
+- Link: [GitHub](https://github.com/weichaozeng/TextCtrl)
 
-### 🔹 OSTF (Open-set Scene Text Forensics)  
-- **Annotation**: Bounding box  
-- **Paper**: Revisiting Tampered Scene Text Detection in the Era of Generative AI  
-- **Domain**: Scene text (ICDAR 2013, ReCTS, TextOCR, etc.)  
-- **Models Benchmarked**: Derend, SRNet, STEFANN, Mostel, DiffSTE, AnyText, Textdiff, Udifftext  
 
-### 🔹 RealDTT (Real-world Comprehensive Dataset of Tampered Text Images)  
-- **Annotation**: Pixel-level segmentation  
-- **Paper**: RealDTT: Towards A Comprehensive Real-World Dataset for Tampered Text Detection  
-- **Domain**: Scene text, documents (MARIO-LAION, FUNSD, ReCTS, LSVT, RCTW)  
-- **Subsets**:  
-  - Photoshop subset: 4,012  
-  - STEFANN: 500  
-  - MOSTEL: 15,000  
-  - VATr: 199  
-  - ViTEraser: 7,000  
-  - SRNet: 18,000  
-  - DiffSTE: 40,000  
-  - AnyText: 47,000  
-  - UDiffText: 127,881  
-  - TextDiffuser: 40,000  
+### TextDiff — Mask-Guided Residual Diffusion Models for Scene Text
+- Mask-guided residual diffusion for scene text; enables residual editing instead of full-image generation.
+- Link: [GitHub](https://github.com/microsoft/unilm/tree/master/textdiffuser)
 
-### 🔹 RTM (Real Text Manipulation) Dataset  
-- **Annotation**: Pixel-level binary masks  
-- **Paper**: Toward Real Text Manipulation Detection: New Dataset and New Solution  
-- **Domain**: Charts, receipts, certificates, scanned documents, tables (SROIE, FUNSD, TNCR, Volunteers)  
-- **Subsets**: Training: 5,803 | Testing: 3,197  
-- **Tampering**: Copy-move, Splicing, Insertion, Inpainting, Coverage (Photoshop)  
-- **Implementation**: ASC-Former  
+### UDiffText (UDiff / UDiffText)
+- Unified character-aware diffusion for high-quality text synthesis in arbitrary images; precise character-level control and scalable generation.
+- Link: [GitHub](https://github.com/ZYM-PKU/UDiffText)
 
 ---
 
@@ -382,7 +469,7 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 
 <a id="ref8"></a>[8] H. Shao, Z. Qian, K. Huang, W. Wang, X. Huang, Q. Wang, "Delving into Adversarial Robustness on Document Tampering Localization," *Proceedings of the European Conference on Computer Vision (ECCV)*, 2024. [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08224.pdf)
 
-<a id="refX"></a>[9] J. Wang, L. Mou, C. Zheng, W. Gao, "Image-Based Freeform Handwriting Authentication With Energy-Oriented Self-Supervised Learning," *IEEE Transactions on Multimedia*, vol. 27, pp. 1397-1409, 2025. [Paper](https://doi.org/10.1109/TMM.2024.3521807)
+<a id="ref9"></a>[9] J. Wang, L. Mou, C. Zheng, W. Gao, "Image-Based Freeform Handwriting Authentication With Energy-Oriented Self-Supervised Learning," *IEEE Transactions on Multimedia*, vol. 27, pp. 1397-1409, 2025. [Paper](https://doi.org/10.1109/TMM.2024.3521807)
 
 <a id="ref10"></a>[10] G. Li, X. Yang, W. Ma, "A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition," *arXiv preprint arXiv:2402.13545v2*, Feb. 2024. [Paper](https://arxiv.org/pdf/2402.13545.pdf)
 
@@ -409,6 +496,17 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 <a id="ref20"></a>[20] L. Li, K. Zhang, J. Lu, S. Zhang, N. Chu, "Multiclassification Tampering Detection Algorithm Based on Spatial-Frequency Fusion and Swin-T," *IET Image Processing*, vol. 19, 2025. [Paper](https://www.researchgate.net/publication/389433177_Multiclassification_Tampering_Detection_Algorithm_Based_on_Spatial-Frequency_Fusion_and_Swin-T)
 
 <a id="ref21"></a>[21] A. George, S. Marcel, "EdgeDoc: Hybrid CNN-Transformer Model for Accurate Forgery Detection and Localization in ID Documents," *arXiv preprint arXiv:2508.16284*, 2025. [Paper](https://arxiv.org/pdf/2508.16284)
+
+<a id="ref22"></a>[22] N. Sidere, F. Cruz, M. Coustaty and J.-M. Ogier, "A dataset for forgery detection and spotting in document images," *Seventh International Conference on Emerging Security Technologies (EST)*, Canterbury, UK, 2017, pp. 26–31. [Paper](https://doi.org/10.1109/EST.2017.8090394)
+  
+<a id="ref23"></a>[23] G. Mahfoudi, F. Morain-Nicolier, F. Retraint and M. Pic, "CMID: A New Dataset for Copy-Move Forgeries on ID Documents," *IEEE International Conference on Image Processing (ICIP)*, Anchorage, AK, USA, 2021, pp. 3028–3032. [Paper](https://doi.org/10.1109/ICIP42928.2021.9506723)
+
+<a id="ref24"></a>[24] T. Kumar, M. Turab, S. Talpur, R. Brennan and M. Bendechache, "Forged Character Detection Datasets: Passports, Driving Licences and Visa Stickers," *International Journal of Artificial Intelligence & Applications*, vol. 13, pp. 21–35, Mar. 2022. [Paper](https://doi.org/10.5121/ijaia.2022.13202)
+ 
+<a id="ref25"></a>[25] A. K. Jaiswal, S. Singh and S. K. Tripathy, "FSD: A novel forged document dataset and baseline," *2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)*, Delhi, India, pp. 1–6, 2023. [Paper](https://doi.org/10.1109/ICCCNT56998.2023.10306408)
+  
+<a id="ref26"></a>[26] D. Luo, Y. Liu, R. Yang, X. Liu, J. Zeng, Y. Zhou and X. Bai, "Toward real text manipulation detection: New dataset and new solution," *Pattern Recognition*, vol. 157, p. 110828, 2025. [Paper](https://doi.org/10.1016/j.patcog.2024.110828)  
+  
 
 ---
 
