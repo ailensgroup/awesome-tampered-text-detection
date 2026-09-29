@@ -72,6 +72,17 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
   </tr>
 
   <tr>
+    <td>Yu et al. <a href="#ref46">[46]</a> : STFL-Net</td>
+    <td>2023</td>
+    <td>ICASSP</td>
+    <td>Text forgery localization in smartphone screenshots</td>
+    <td><a href="https://github.com/ZeqinYu/STFL-Net">STFD</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
     <td>Jain <a href="#ref5">[5]</a> : K-Means, Decision Trees, Logistic Regression</td>
     <td>2024</td>
     <td>IRJET</td>
@@ -268,6 +279,127 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
     <td>✅</td>
     <td>✅</td>
   </tr>
+
+  <tr>
+    <td>Shao et al. <a href="#ref61">[61]</a> : AFR</td>
+    <td>2025</td>
+    <td>AAAI</td>
+    <td>Adversarial Forensic Regularization (min-max, mutual-information / JSD) for robustness to natural corruptions</td>
+    <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a>, <a href="https://github.com/wangyuxin87/Tampered_sroie">T-SROIE</a>, TSorie-CRP</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Li et al. <a href="#ref62">[62]</a> : DocAI-TL</td>
+    <td>2025</td>
+    <td>ICDAR</td>
+    <td>Document-AI text/layout semantics (LayoutLMv3) guide a SAM-Adapter via Probability Guided Attention</td>
+    <td><a href="https://github.com/lyjuser/DocAI-TL">SDFD</a></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Du et al. <a href="#ref49">[49]</a> : ForensicHub</td>
+    <td>2025</td>
+    <td>NeurIPS (D&amp;B)</td>
+    <td>Unified all-domain forensics benchmark &amp; codebase; Doc track includes DTD, FFDN, CAFTB-Net, TIFDM, PS-Net</td>
+    <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a>, <a href="https://github.com/wangyuxin87/Tampered_sroie">T-SROIE</a>, <a href="https://github.com/qcf-568/OSTF">OSTF</a></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+
+  <tr>
+    <td>Yu et al. <a href="#ref50">[50]</a> : FSTS</td>
+    <td>2025</td>
+    <td>NeurIPS (D&amp;B)</td>
+    <td>Fourier Series-based Tampering Synthesis: training data modelled on real human tampering behaviour</td>
+    <td><a href="https://huggingface.co/datasets/Zegkim/FSTS">FSTS</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Qin et al. <a href="#ref51">[51]</a> : FGDTD</td>
+    <td>2025</td>
+    <td>PRCV</td>
+    <td>Fine-grained detection: localize tampered text <em>and</em> identify the tampering method</td>
+    <td><a href="https://github.com/billqxg/FGDTD">FGDTD</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Zeng et al. <a href="#ref63">[63]</a> : LogicLens</td>
+    <td>2025</td>
+    <td>arXiv</td>
+    <td>Visual-logical co-reasoning MLLM (Cross-Cues-aware Chain-of-Thought + GRPO) for detection, localization and explanation</td>
+    <td>RealText</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Qu et al. <a href="#ref52">[52]</a> : Omni-IML</td>
+    <td>2026</td>
+    <td>ICLR</td>
+    <td>Generalist interpretable manipulation localization across document, scene-text, natural and face images</td>
+    <td><a href="https://github.com/qcf-568/OmniIML">Omni-273k</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Qu et al. <a href="#ref53">[53]</a> : TextShield-R1</td>
+    <td>2026</td>
+    <td>AAAI</td>
+    <td>MLLM (Qwen2.5-VL) + forensic continual pre-training + GRPO reinforcement learning + OCR rectification</td>
+    <td><a href="https://github.com/qcf-568/TextShield">TFR</a></td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+
+  <tr>
+    <td>Zhang et al. <a href="#ref54">[54]</a> : SC-RF / Forensic-DiT</td>
+    <td>2026</td>
+    <td>ACM MM</td>
+    <td>Generative detection via Sparse-Constraint Rectified Flow (tampering = local restoration cost)</td>
+    <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a>, <a href="https://github.com/wangyuxin87/Tampered-IC13">T-IC13</a>, <a href="https://github.com/qcf-568/OSTF">OSTF</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Ronfleux-Corail et al. <a href="#ref64">[64]</a> : DocQT</td>
+    <td>2026</td>
+    <td>arXiv</td>
+    <td>Training with real-world JPEG quantization tables (Real-QT) to close the compression gap; studied with FFDN and Mesorch</td>
+    <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a>, <a href="https://github.com/DrLuo/RTM">RTM</a>, <a href="https://github.com/wangyuxin87/Tampered_sroie">T-SROIE</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Dhouib et al. <a href="#ref60">[60]</a> : DiffNet</td>
+    <td>2026</td>
+    <td>ECCV</td>
+    <td>Multi-level discrepancy features (zero-sum filters) + unified DCT–quantization embedding; RGB–DCT early fusion on ConvNeXt-V2, up to 7× higher throughput</td>
+    <td><a href="https://github.com/qcf-568/DocTamper">Doc-Tamper</a>, <a href="https://github.com/wangyuxin87/Tampered_sroie">T-SROIE</a>, <a href="https://github.com/DrLuo/RTM">RTM</a>, <a href="https://l3i-share.univ-lr.fr/2023Finditagain/index.html">Find it again!</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
   </tbody>
 </table>
 </div>
@@ -300,6 +432,14 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 - Introduction: Large-scale pixel-level dataset for document tampering localization with multiple subsets (contracts, invoices, receipts, noisy office, scanned receipts).
 - Link: [Dataset Homepage](https://github.com/qcf-568/DocTamper)
 
+### STFD — Screenshot Text Forgery Dataset (2023) <a href="#ref46">[46]</a>
+- Introduction: Real-world tampered smartphone screenshots (Android, HarmonyOS, iOS, Windows) with pixel-level binary masks; five tampering types (copy-move, splicing, removal, insertion, replacement).
+- Link: [Dataset Homepage](https://github.com/ZeqinYu/STFL-Net) | [Hugging Face](https://huggingface.co/datasets/Zegkim/STFD)
+
+### Find it again! — Receipt Dataset for Document Forgery Detection (2023) <a href="#ref47">[47]</a>
+- Introduction: 988 scanned SROIE receipts with transcriptions, of which 163 carry realistic manual forgeries (e.g., prices, product entries); bounding-box annotations of forged entities with train/val/test splits, supporting both image-based and text-based detection.
+- Link: [Dataset Homepage](https://l3i-share.univ-lr.fr/2023Finditagain/index.html)
+
 ### ETTD — Explainable Tampered Text Detection Dataset (2024) <a href="#ref7">[7]</a>
 - Introduction: Pixel-level masks with natural language rationales for documents, IDs, and scene texts; includes ETTD-Train, ETTD-Test, and class-agnostic ETTD-CD.
 - Link: Not Available
@@ -307,6 +447,10 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 ### TextTamper (2024) <a href="#ref12">[12]</a>
 - Introduction: Pixel-level annotations for text tampering localization across certificates, documents, and tables; created with rule-based, Poisson, and deep image blending.
 - Link: [Dataset Homepage](https://github.com/nbudongli/text-image-forgery-detection)
+
+### SIDTD — Synthetic dataset of ID and Travel Documents (2024) <a href="#ref48">[48]</a>
+- Introduction: Extends MIDV-2020 with forged ID and travel documents from 10 European countries, created by crop-and-replace and inpainting of text fields; includes forged template images (1,222) and video clips for genuine-vs-forged classification.
+- Link: [Dataset Homepage](https://tc11.cvc.uab.es/datasets/SIDTD_1/) | [Code](https://github.com/Oriolrt/SIDTD_Dataset)
 
 ### OSTF — Open-set Scene Text Forensics (2025) <a href="#ref14">[14]</a>
 - Introduction: Open-set benchmark on scene text with bounding boxes; evaluates multiple generation/erasure models (Derend, SRNet, STEFANN, Mostel, DiffSTE, AnyText, Textdiff, UDiffText) on ICDAR 2013, ReCTS, TextOCR, etc.
@@ -319,6 +463,30 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 ### RTM — Real Text Manipulation (2025) <a href="#ref26">[26]</a>
 - Introduction: Pixel-level binary masks for varied manipulations (copy-move, splicing, insertion, inpainting, coverage) across charts, receipts, certificates, scanned docs, table-heavy pages; train/test from SROIE, FUNSD, TNCR, volunteers.
 - Link: [Dataset Homepage](https://github.com/DrLuo/RTM)
+
+### SDFD — Structured Document Forgery Dataset (2025) <a href="#ref62">[62]</a>
+- Introduction: 25,080 structured document images with pixel-level masks and GPT-assisted annotation; public subsets T-CERT (certificates), T-FUNSD (forms) and tampered receipts from T-IDR (the ID-card subset is not shareable due to licensing).
+- Link: [Dataset Homepage](https://github.com/lyjuser/DocAI-TL)
+
+### FSTS — Fourier Series-based Tampering Synthesis (2025) <a href="#ref50">[50]</a>
+- Introduction: 294,182 images in total, mostly synthesized by modelling 16,750 real-world tampering instances collected from 67 participants across five operations (copy-move, splicing, removal, insertion, replacement); subsets FSTS-T (50K train), FSTS-S (5,705 val), FSTS-v2 (236,989) and a real-world held-out test set FSTS-1.5k (1,488 images).
+- Link: [Dataset Homepage](https://huggingface.co/datasets/Zegkim/FSTS)
+
+### FGDTD — Fine-Grained Document Tampering Detection (2025) <a href="#ref51">[51]</a>
+- Introduction: 16,479 tampered images from 12 document datasets in 3 languages, covering 8 tampering methods (copy-move, inpainting, CTRNet, SRNet, ViTEraser, MOSTEL, UDiffText, AnyText) at word and character level; labels give both the tampered region and the tampering method.
+- Link: [Dataset Homepage](https://github.com/billqxg/FGDTD)
+
+### TFR — Text Forensics Reasoning Benchmark (2026) <a href="#ref53">[53]</a>
+- Introduction: 45,971 tampered and 45,514 real images across documents, scene text and ID-style cards in 16 languages; 10 tampering techniques ranging from copy-move/splicing to SRNet, DiffUTE, TextDiffuser-2, UDiffText, AnyText2, ControlNet and GPT-4o image generation. Annotations include boxes, coarse masks, OCR of tampered text and reasoning-style explanations, with cross-style, cross-method and cross-language test splits.
+- Link: [Dataset Homepage](https://github.com/qcf-568/TextShield) | [Hugging Face](https://huggingface.co/qcf568/TFR)
+
+### RealText / RealText-V2 (2025 / 2026) <a href="#ref63">[63]</a> <a href="#ref65">[65]</a>
+- Introduction: Benchmark for explainable text-centric forgery analysis. RealText (5,397 images) provides detection labels, pixel-level masks, textual explanations and logical-inconsistency indicators. RealText-V2, released for the ACM MM 2026 GenText-Forensics Challenge, contains 20K+ samples in six languages across six domains (finance, healthcare, education, etc.) with 100+ attack methods, from character substitution to sentence-level semantic manipulation, annotated with masks, attack-type labels and expert-written explanations.
+- Link: [RealText-V2 (Hugging Face)](https://huggingface.co/datasets/vankey/RealText-V2) | [Challenge Homepage](https://gentext-forensics-acm-mm-2026.github.io/)
+
+### AIForge-Doc (2026) <a href="#ref55">[55]</a>
+- Introduction: 4,061 receipts and forms (from CORD, WildReceipt, SROIE, XFUND; nine languages) whose numeric fields were forged with commercial AI inpainting APIs (Gemini 2.5 Flash Image, Ideogram v2 Edit); pixel-level masks in DocTamper format. Detectors trained on conventional forgeries and GPT-4o drop to near-chance performance on it.
+- Link: Not Available
 
 ---
 
@@ -386,6 +554,22 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
   </tr>
 
   <tr>
+    <td>STFD <a href="#ref46">[46]</a></td>
+    <td>-</td>
+    <td>Pixel-level (binary masks)</td>
+    <td>-</td>
+    <td>Smartphone screenshots</td>
+  </tr>
+
+  <tr>
+    <td>Find it again! <a href="#ref47">[47]</a></td>
+    <td>English</td>
+    <td>Bounding box (forged entities)</td>
+    <td>Train / Val / Test</td>
+    <td>Receipts</td>
+  </tr>
+
+  <tr>
     <td>ETTD <a href="#ref7">[7]</a></td>
     <td>English, Chinese</td>
     <td>Pixel-level + Natural language</td>
@@ -399,6 +583,14 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
     <td>Pixel-level</td>
     <td>Train / Val</td>
     <td>Certificates, Documents, Tables</td>
+  </tr>
+
+  <tr>
+    <td>SIDTD <a href="#ref48">[48]</a></td>
+    <td>Multiple (10 European countries)</td>
+    <td>Image-level (genuine / forged)</td>
+    <td>Templates / Videos / Clips</td>
+    <td>ID cards, Passports</td>
   </tr>
 
   <tr>
@@ -423,6 +615,54 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
     <td>Pixel-level (binary masks)</td>
     <td>Train / Test</td>
     <td>Charts, Receipts, Certificates, Scanned documents, Tables</td>
+  </tr>
+
+  <tr>
+    <td>SDFD <a href="#ref62">[62]</a></td>
+    <td>-</td>
+    <td>Pixel-level</td>
+    <td>T-CERT / T-FUNSD / T-IDR (+ private ID cards)</td>
+    <td>Certificates, Forms, Receipts, ID cards</td>
+  </tr>
+
+  <tr>
+    <td>FSTS <a href="#ref50">[50]</a></td>
+    <td>-</td>
+    <td>Pixel-level</td>
+    <td>FSTS-T / FSTS-S / FSTS-v2 / FSTS-1.5k</td>
+    <td>Real-world text images</td>
+  </tr>
+
+  <tr>
+    <td>FGDTD <a href="#ref51">[51]</a></td>
+    <td>3 languages</td>
+    <td>Bounding box + tampering-method label</td>
+    <td>8 method-specific subsets (word / character level)</td>
+    <td>Documents</td>
+  </tr>
+
+  <tr>
+    <td>TFR <a href="#ref53">[53]</a></td>
+    <td>16 languages</td>
+    <td>Bounding box + coarse mask + OCR + reasoning text</td>
+    <td>Train / Test / Cross-style / Cross-method / Cross-language</td>
+    <td>Documents, Scene text, ID cards</td>
+  </tr>
+
+  <tr>
+    <td>RealText / RealText-V2 <a href="#ref63">[63]</a> <a href="#ref65">[65]</a></td>
+    <td>English, Chinese, Arabic + 3 more (V2)</td>
+    <td>Pixel-level + attack-type label + natural-language explanation</td>
+    <td>Train / Test (V2: ~21K / ~6.5K)</td>
+    <td>Finance, Healthcare, Education and other documents</td>
+  </tr>
+
+  <tr>
+    <td>AIForge-Doc <a href="#ref55">[55]</a></td>
+    <td>9 languages</td>
+    <td>Pixel-level</td>
+    <td>Train / Test (3,249 / 812)</td>
+    <td>Receipts, Forms</td>
   </tr>
   </tbody>
 </table>
@@ -577,6 +817,36 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
       <td><a href="https://arxiv.org/pdf/2312.04884">Paper</a></td>
     </tr>
     <tr>
+      <td>VATr <a href="#ref57">[57]</a></td>
+      <td>2023</td>
+      <td>CVPR</td>
+      <td>Handwriting Generation</td>
+      <td>Few-shot styled handwritten text generation using glyph-based “visual archetypes”, robust to rare characters.</td>
+      <td>Transformer-based generator (adversarial training)</td>
+      <td><a href="https://github.com/aimagelab/VATr">Official Repo</a></td>
+      <td><a href="https://arxiv.org/pdf/2303.15269">Paper</a></td>
+    </tr>
+    <tr>
+      <td>TextDiffuser <a href="#ref56">[56]</a></td>
+      <td>2023</td>
+      <td>NeurIPS</td>
+      <td>Character-Aware Synthesis</td>
+      <td>Layout-then-render diffusion with character-level segmentation masks; supports text inpainting of image regions.</td>
+      <td>Layout Transformer + Latent Diffusion Model</td>
+      <td><a href="https://github.com/microsoft/unilm/tree/master/textdiffuser">Official Repo</a></td>
+      <td><a href="https://arxiv.org/pdf/2305.10855">Paper</a></td>
+    </tr>
+    <tr>
+      <td>ViTEraser <a href="#ref58">[58]</a></td>
+      <td>2024</td>
+      <td>AAAI</td>
+      <td>Text Editing, Inpainting, Removal</td>
+      <td>One-stage scene text removal without text masks, with SegMIM pre-training.</td>
+      <td>Vision Transformer encoder-decoder</td>
+      <td><a href="https://github.com/shannanyinxiang/ViTEraser">Official Repo</a></td>
+      <td><a href="https://arxiv.org/pdf/2306.12106">Paper</a></td>
+    </tr>
+    <tr>
       <td>TextCtrl <a href="#ref40">[40]</a></td>
       <td>2024</td>
       <td>NeurIPS</td>
@@ -615,6 +885,16 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
       <td>Diffusion Model with Attention and Perceptual Loss</td>
       <td>N/A</td>
       <td><a href="https://arxiv.org/pdf/2410.09879">Paper</a></td>
+    </tr>
+    <tr>
+      <td>RS-STE <a href="#ref59">[59]</a></td>
+      <td>2025</td>
+      <td>CVPR</td>
+      <td>Recognition-Guided Editing</td>
+      <td>Unifies text recognition and editing in one model; cyclic self-supervised fine-tuning on unpaired real images.</td>
+      <td>Transformer with multi-modal parallel decoder</td>
+      <td><a href="https://github.com/ZhengyaoFang/RS-STE">Official Repo</a></td>
+      <td><a href="https://arxiv.org/pdf/2503.08387">Paper</a></td>
     </tr>
     <tr>
       <td>GlyphMastero <a href="#ref44">[44]</a></td>
@@ -736,6 +1016,46 @@ A curated collection of **papers, datasets, code, and tools** for detecting tamp
 <a id="ref44"></a>[44] T. Wang, T. Liu, X. Qu, C. Wu, L. Liu and X. Hu, "GlyphMastero: A glyph encoder for high-fidelity scene text editing," in *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2025, pp. 28523–28532. [Paper](https://arxiv.org/pdf/2505.04915)
 
 <a id="ref45"></a>[45] C. Wu, J. Li, J. Zhou, J. Lin, K. Gao, K. Yan, S. Yin *et al.*, "Qwen-Image technical report," *arXiv preprint arXiv:2508.02324*, 2025. [Paper](https://arxiv.org/pdf/2508.02324) | [Code](https://github.com/QwenLM/Qwen-Image)
+
+<a id="ref46"></a>[46] Z. Yu, B. Li, Y. Lin, J. Zeng and J. Zeng, "Learning to Locate the Text Forgery in Smartphone Screenshots," in *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2023. [Paper](https://ieeexplore.ieee.org/abstract/document/10095070/) | [Code](https://github.com/ZeqinYu/STFL-Net)
+
+<a id="ref47"></a>[47] B. Martínez Tornés, T. Taburet, E. Boros, K. Rouis, A. Doucet, P. Gomez-Krämer, N. Sidere and V. Poulain d'Andecy, "Receipt Dataset for Document Forgery Detection," in *International Conference on Document Analysis and Recognition (ICDAR)*, 2023, pp. 454–469. [Paper](https://doi.org/10.1007/978-3-031-41682-8_28) | [Dataset](https://l3i-share.univ-lr.fr/2023Finditagain/index.html)
+
+<a id="ref48"></a>[48] C. Boned, M. Talarmain, N. Ghanmi, G. Chiron, S. Biswas, A. M. Awal and O. Ramos Terrades, "Synthetic dataset of ID and Travel Documents," *Scientific Data*, vol. 11, 1356, 2024. [Paper](https://doi.org/10.1038/s41597-024-04160-9) | [Code](https://github.com/Oriolrt/SIDTD_Dataset)
+
+<a id="ref49"></a>[49] B. Du, X. Zhu, X. Ma, C. Qu, K. Feng, Z. Yang, C.-M. Pun, J. Liu and J. Zhou, "ForensicHub: A Unified Benchmark & Codebase for All-Domain Fake Image Detection and Localization," in *Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track*, 2025. [Paper](https://arxiv.org/pdf/2505.11003) | [Code](https://github.com/scu-zjz/ForensicHub)
+
+<a id="ref50"></a>[50] Z. Yu, H. Xie, J. Zhang, J. Ni, W. Su and J. Huang, "Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis," in *Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track*, 2025. [Paper](https://arxiv.org/pdf/2511.12658) | [Code](https://github.com/ZeqinYu/FSTS) | [Dataset](https://huggingface.co/datasets/Zegkim/FSTS)
+
+<a id="ref51"></a>[51] X. Qin, J. Tian, J. Sheng, T. Xia, Y. Wang, C. Li and G. Zeng, "Towards Fine-Grained Document Tampering Detection: New Dataset and Benchmark," in *Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2025)*, LNCS vol. 16278, Springer, 2026, pp. 3–19. [Paper](https://doi.org/10.1007/978-981-95-5676-2_1) | [Code](https://github.com/billqxg/FGDTD)
+
+<a id="ref52"></a>[52] C. Qu, Y. Zhong, F. Guo and L. Jin, "Omni-IML: Towards Unified Interpretable Image Manipulation Localization," in *International Conference on Learning Representations (ICLR)*, 2026. [Paper](https://openreview.net/pdf?id=jBJkP5Fv0m) | [Code](https://github.com/qcf-568/OmniIML)
+
+<a id="ref53"></a>[53] C. Qu, Y. Zhong, J. Liu, X. Zhu, B. Yu and L. Jin, "TextShield-R1: Reinforced Reasoning for Tampered Text Detection," *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, vol. 40, no. 10, pp. 8621–8629, 2026. [Paper](https://arxiv.org/pdf/2602.19828) | [Code](https://github.com/qcf-568/TextShield)
+
+<a id="ref54"></a>[54] J. Zhang, S. Gao, Z. Chen, Y. Liu and Y. Zhou, "Open-Set Visual Text Forensics via Sparse-Constraint Rectified Flow," in *Proceedings of the 34th ACM International Conference on Multimedia (MM)*, 2026. [Paper](https://arxiv.org/pdf/2608.02258)
+
+<a id="ref55"></a>[55] J. Wu, Y. Zhou, M. Xu, Z. Liang, S. Ren, J. Xue, M. Yang, S. Chen and J. Huan, "AIForge-Doc: A Benchmark for Detecting AI-Forged Tampering in Financial and Form Documents," *arXiv preprint arXiv:2602.20569*, 2026. [Paper](https://arxiv.org/pdf/2602.20569)
+
+<a id="ref56"></a>[56] J. Chen, Y. Huang, T. Lv, L. Cui, Q. Chen and F. Wei, "TextDiffuser: Diffusion Models as Text Painters," *Advances in Neural Information Processing Systems*, vol. 36, pp. 9353–9387, 2023. [Paper](https://arxiv.org/pdf/2305.10855) | [Code](https://github.com/microsoft/unilm/tree/master/textdiffuser)
+
+<a id="ref57"></a>[57] V. Pippi, S. Cascianelli and R. Cucchiara, "Handwritten Text Generation from Visual Archetypes," in *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2023, pp. 22458–22467. [Paper](https://arxiv.org/pdf/2303.15269) | [Code](https://github.com/aimagelab/VATr)
+
+<a id="ref58"></a>[58] D. Peng, C. Liu, Y. Liu and L. Jin, "ViTEraser: Harnessing the Power of Vision Transformers for Scene Text Removal with SegMIM Pretraining," in *Proceedings of the AAAI Conference on Artificial Intelligence*, vol. 38, no. 5, 2024, pp. 4468–4477. [Paper](https://arxiv.org/pdf/2306.12106) | [Code](https://github.com/shannanyinxiang/ViTEraser)
+
+<a id="ref59"></a>[59] Z. Fang, P. Lyu, J. Wu, C. Zhang, J. Yu, G. Lu and W. Pei, "Recognition-Synergistic Scene Text Editing," in *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2025, pp. 13104–13113. [Paper](https://arxiv.org/pdf/2503.08387) | [Code](https://github.com/ZhengyaoFang/RS-STE)
+
+<a id="ref60"></a>[60] M. Dhouib, Y. Zhu, S. Vanier and A. Shabou, "Efficient Document Tampering Localization with Multi-Level Discrepancy Features and Unified DCT–Quantization Embedding," in *Proceedings of the European Conference on Computer Vision (ECCV)*, 2026. [Paper](https://arxiv.org/pdf/2606.22285) | [Code](https://github.com/Mohamed-Dhouib/DiffNet)
+
+<a id="ref61"></a>[61] H. Shao, K. Huang, W. Wang, X. Huang and Q. Wang, "Towards Better Robustness Against Natural Corruptions in Document Tampering Localization," *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, vol. 39, no. 1, pp. 703–710, 2025. [Paper](https://doi.org/10.1609/aaai.v39i1.32052)
+
+<a id="ref62"></a>[62] Y. Li, S. Zheng, G. Zhang, Q. Chen and C. Chen, "DocAI-TL: Structured Document Tampering Localization with DocAI Model," in *International Conference on Document Analysis and Recognition (ICDAR)*, LNCS vol. 16026, 2025, pp. 311–328. [Paper](https://doi.org/10.1007/978-3-032-04627-7_18) | [Code](https://github.com/lyjuser/DocAI-TL)
+
+<a id="ref63"></a>[63] F. Zeng, C. Miao, J. Huang *et al.*, "LogicLens: Visual-Logical Co-Reasoning for Text-Centric Forgery Analysis," *arXiv preprint arXiv:2512.21482*, 2025. [Paper](https://arxiv.org/pdf/2512.21482)
+
+<a id="ref64"></a>[64] K. Ronfleux-Corail, G. Bernard, M. Coustaty and N. Sidère, "DocQT: Improving Document Forgery Localization Robustness via Diverse JPEG Quantization Tables," *arXiv preprint arXiv:2605.19688*, 2026. [Paper](https://arxiv.org/pdf/2605.19688) | [Data](https://github.com/Kyliroco/Improving-Document-Forgery-Localization-Robustness-via-Diverse-JPEG-Quantization-Tables)
+
+<a id="ref65"></a>[65] GenText-Forensics Challenge (RealText-V2 dataset), *ACM International Conference on Multimedia (MM) Grand Challenge*, 2026. [Challenge](https://gentext-forensics-acm-mm-2026.github.io/) | [Dataset](https://huggingface.co/datasets/vankey/RealText-V2)
 
 ---
 
